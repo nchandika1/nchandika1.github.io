@@ -1,0 +1,137 @@
+/* Sticky Footer Implementation */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	/* following two lines are for sticky footer */
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex:1 0 auto;
+}
+
+/* End of Sticky footer */
+
+/* Other Styling for the page starts here */
+body {
+	width: 960px;
+	background-image: url(../images/background.png);	
+}
+
+#profileImageStyle {
+	float: left;
+	margin: 10px;
+}
+
+#topnavName {
+	background-color: #4aaaa5; /* teal */
+	font-weight: bold;
+}
+
+#topnavItem {
+	float:left;
+	margin-left: 70px;
+}
+
+#clear {
+	clear: both;
+}
+
+#container {
+    width: 800px;
+    border:bold;
+	background-image: url(../images/background.png);	
+    margin: auto;
+}
+#first {
+    width: 500px;
+    float: left;
+    margin:0 20px 0 0;
+    border:none;
+    background-color: #ffffff; /* white */
+}
+#second {
+    width: 200px;
+    float: left;
+    border: none;
+    background-color: #ffffff; /* white */
+}
+
+/*    */
+.aboutMeStyle,
+.contactMeStyle {
+	clear: both;
+	float: left;
+}
+
+.aboutMeStyle {
+	width:520px;
+	padding:20px;
+	margin:40px;
+	border:none;
+	color: #777777;
+	background-color: white;
+}
+
+.contactMeStyle {
+	width:190px;
+	padding:20px;
+	margin:20px;
+	border:none;
+	background-color: white;
+}
+
+/* Navigation Bar */
+
+.topnav {
+    background-color: #ffffff /* white */;
+    overflow: hidden;
+}
+
+.topnav h1 {
+	background-color: #4aaaa5;
+	text-align: center;
+}
+
+.topnav a {
+	float: right;
+	display: block;
+	color: #777777;
+	text-align: center;
+	padding: 14px 10px;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color:black;
+}
+
+.topnav a.active {
+	background-color: #4CAF50;
+	color:white;
+}
+
+/* End of Naviagation Bar Style */
+
+/* Thick horizontal row */
+
+#hrStyle {
+	border: none; 
+	border-bottom: 2px solid grey;
+}
+
+.footerBox {
+	width: 100%;
+	background-color: #666666;
+}
+
+.footerText {
+	text-align: center;
+}
+
+
